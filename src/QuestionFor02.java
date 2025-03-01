@@ -3,7 +3,6 @@ import java.util.Locale;
 
 public class QuestionFor02 {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
 
@@ -17,7 +16,7 @@ public class QuestionFor02 {
 
             System.out.print("Digite o valor de X: ");
             int x = sc.nextInt();
-            
+
             if (x >= 10 && x <= 20) {
                 in += 1;
             }
@@ -31,6 +30,5 @@ public class QuestionFor02 {
         System.out.println("Out: " + out);
 
         sc.close();
-
     }
 }
