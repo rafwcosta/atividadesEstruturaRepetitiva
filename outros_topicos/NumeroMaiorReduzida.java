@@ -25,7 +25,7 @@ public class NumeroMaiorReduzida {
     }
 
     // Criando a função "max"
-    
+
     /*
      * public = para que a função fique disponível em outras classes
      * static = para que a função possa ser chamada independente de se criar um objeto
@@ -51,3 +51,7 @@ public class NumeroMaiorReduzida {
         System.out.println("Maior: " + valor);
     }
 }
+
+/*
+ Não seria mais fácil implementar o código com somente if-else, ao invés de colocar uma função e depois colocar o if-else? Não. É uma boa prática que seu código fique dividido em várias partes de código, ficando assim cada vez menor e mais fácil a sua implementação, manuntenção e sustentação, seguindo os princípios de implementação funcional.
+*/
